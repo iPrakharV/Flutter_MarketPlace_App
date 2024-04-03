@@ -12,7 +12,8 @@ I am attaching screenshots and a screen recording of the app below:
 ## Screenshots
 **1. HomeScreen**<br>
 <!-- ![Home Screen](Screenshots/iOS/Home.png) -->
-<img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/iOS/Home.jpg" width="300" height="600"><br><br>
+<img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/iOS/Home.jpg" width="300" height="600">
+<img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/android/Screenshot_1712103929.png" width="300" height="600"><br><br>
 
 
 **2. Audio Player**<br>
