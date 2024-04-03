@@ -11,7 +11,7 @@ I am attaching screenshots and a screen recording of the app below:
 
 ## Screenshots
 **1. HomeScreen**<br>
-
+![Home Screen](Screenshots/iOS/Home.png)
 
 **2. Audio Player**<br>
 
