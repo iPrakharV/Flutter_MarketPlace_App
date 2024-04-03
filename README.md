@@ -55,6 +55,6 @@ This Flutter Marketplace and Music App is a unique blend of e-commerce and enter
 
 ## Made by 
 iPrakharV,<br>
-mail: connect@iprakharv.com
+Mail: connect@iprakharv.com
 
 
