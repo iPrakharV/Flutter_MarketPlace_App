@@ -1,4 +1,5 @@
-# flutter_MarketPLace_App
+# flutter_MarketPLace_and_Music_App
+
 
 
 This is a simple shopping app built using flutter and Bloc is used for state management. It also has audio player. It fetched products from free demo api.
