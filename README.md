@@ -12,7 +12,7 @@ I am attaching screenshots and a screen recording of the app below:
 ## Screenshots
 **1. HomeScreen**<br>
 <!-- ![Home Screen](Screenshots/iOS/Home.png) -->
-<img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/Screenshots/iOS/Home.jpg" width="300" height="600"><br><br>
+<img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/README.md" width="300" height="600"><br><br>
 
 
 **2. Audio Player**<br>
