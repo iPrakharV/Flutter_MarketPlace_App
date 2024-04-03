@@ -10,23 +10,22 @@ I am attaching screenshots and a screen recording of the app below:
 
 
 ## Screenshots
-**1. HomeScreen**<br>
-<!-- ![Home Screen](Screenshots/iOS/Home.png) -->
+**1. HomeScreen:**<br>
 <img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/iOS/Home.jpg" width="300" height="600">
 <img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/android/Screenshot_1712103929.png" width="300" height="600"><br><br>
 
 
-**2. Audio Player**<br>
+**2. Audio Player:**<br>
 <img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/iOS/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202024-04-02%20at%2020.24.05.png" width="300" height="600"><br><br>
 
-**3. Enquiry Form**<br>
+**3. Enquiry Form:**<br>
 <img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/iOS/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202024-04-02%20at%2020.24.22.png" width="300" height="600"><br><br>
 
-**4. WishList Page**<br>
+**4. WishList Page:**<br>
 <img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/iOS/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202024-04-02%20at%2020.24.08.png" width="300" height="600">
 <img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/android/Screenshot_1712103939.png" width="300" height="600"><br><br>
 
-**5. Cart Page**<br>
+**5. Cart Page:**<br>
 <img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/iOS/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20Max%20-%202024-04-02%20at%2020.24.17.png" width="300" height="600">
 <img src="https://github.com/iPrakharV/Flutter_MarketPlace_App/blob/main/Screenshots/android/Screenshot_1712103942.png" width="300" height="600"><br><br>
 ## Getting Started
