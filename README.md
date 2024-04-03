@@ -25,7 +25,7 @@ I am attaching screenshots and a screen recording of the app below:
 You can directly pull the code and build an app from it. and finally use and enjoy.
 
 ## Made by 
-iPrakharV,
+iPrakharV,<br>
 mail: connect@iprakharv.com
 
 
