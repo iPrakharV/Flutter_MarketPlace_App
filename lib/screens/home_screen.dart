@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Yash Shop ',
+              'iPrakharv\'s Shop ',
               style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                   fontWeight: FontWeight.w500, color: Colors.teal.shade900),
             ),
@@ -61,7 +61,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     onPressed: () {
                       Navigator.pushNamed(context, EnquiryForm.routeName);
                     },
-                    icon: Icon(Icons.question_mark,color: Colors.amber,),
+                    icon: Icon(
+                      Icons.question_mark,
+                      color: Colors.amber,
+                    ),
                   ),
                   IconButton(
                     onPressed: () {
