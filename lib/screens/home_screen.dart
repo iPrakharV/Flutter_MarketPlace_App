@@ -46,7 +46,7 @@ class _HomeScreenState extends State<HomeScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'iPrakharv\'s Shop ',
+              'iPrakharV\'s Shop ',
               style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                   fontWeight: FontWeight.w500, color: Colors.teal.shade900),
             ),

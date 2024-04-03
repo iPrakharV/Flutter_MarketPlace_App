@@ -29,7 +29,7 @@ class _AmazonMusicScreenState extends State<AmazonMusicScreen> {
   @override
   void initState() {
     super.initState();
-    musicPlayerBloc=context.read<MusicPlayerBloc>();
+    musicPlayerBloc = context.read<MusicPlayerBloc>();
     // musicPlayerBloc.add(MusicPlayerLoadMusicEvent());
   }
 
@@ -52,7 +52,7 @@ class _AmazonMusicScreenState extends State<AmazonMusicScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
-              'Amazon Music ',
+              'Music ',
               style: Theme.of(context).textTheme.bodyLarge!.copyWith(
                   fontWeight: FontWeight.w500, color: Colors.teal.shade900),
             ),
@@ -85,23 +85,34 @@ class _AmazonMusicScreenState extends State<AmazonMusicScreen> {
                     Expanded(
                       child: IconButton(
                         iconSize: w * 0.18,
-                        onPressed: disableButton ||state.activeIndex==-1 ? null : () {
-                          musicPlayerBloc.add(MusicPlayerPrevEvent());
-                        },
+                        onPressed: disableButton || state.activeIndex == -1
+                            ? null
+                            : () {
+                                musicPlayerBloc.add(MusicPlayerPrevEvent());
+                              },
                         icon: Icon(
                           Icons.skip_previous,
-                          color: disableButton ||state.activeIndex==-1? Colors.grey : Colors.indigo,
+                          color: disableButton || state.activeIndex == -1
+                              ? Colors.grey
+                              : Colors.indigo,
                         ),
                       ),
                     ),
                     Expanded(
                       child: IconButton(
                         iconSize: w * 0.25,
-                        onPressed: disableButton ? null : () {
-                          musicPlayerBloc.add(MusicPlayerTogglePlayPauseButtonEvent());
-                        },
+                        onPressed: disableButton
+                            ? null
+                            : () {
+                                musicPlayerBloc.add(
+                                    MusicPlayerTogglePlayPauseButtonEvent());
+                              },
                         icon: Icon(
-                          state.activeIndex==-1?Icons.play_arrow: state.playing?Icons.pause_circle: Icons.play_circle,
+                          state.activeIndex == -1
+                              ? Icons.play_arrow
+                              : state.playing
+                                  ? Icons.pause_circle
+                                  : Icons.play_circle,
                           color: disableButton ? Colors.grey : Colors.indigo,
                         ),
                       ),
@@ -109,12 +120,16 @@ class _AmazonMusicScreenState extends State<AmazonMusicScreen> {
                     Expanded(
                       child: IconButton(
                         iconSize: w * 0.18,
-                        onPressed: disableButton ||state.activeIndex==-1? null : () {
-                          musicPlayerBloc.add(MusicPlayerNextEvent());
-                        },
+                        onPressed: disableButton || state.activeIndex == -1
+                            ? null
+                            : () {
+                                musicPlayerBloc.add(MusicPlayerNextEvent());
+                              },
                         icon: Icon(
                           Icons.skip_next,
-                          color: disableButton ||state.activeIndex==-1? Colors.grey : Colors.indigo,
+                          color: disableButton || state.activeIndex == -1
+                              ? Colors.grey
+                              : Colors.indigo,
                         ),
                       ),
                     ),
@@ -129,7 +144,8 @@ class _AmazonMusicScreenState extends State<AmazonMusicScreen> {
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: state.music_files
                               .map((e) => MusicTile(
-                            isActive: state.activeIndex==state.music_files.indexOf(e),
+                                    isActive: state.activeIndex ==
+                                        state.music_files.indexOf(e),
                                     musicFile: e,
                                     index: state.music_files.indexOf(e),
                                   ))
